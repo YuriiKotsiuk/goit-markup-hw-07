@@ -1,11 +1,8 @@
-.static {
-    padding-top: 94px;
-}
 
-.static-list {
-    display: flex;
-    justify-content: center;
-}
+// .static-list {
+//     display: flex;
+//     justify-content: center;
+// }
 
 .static-item {
     width: 270px;
@@ -36,23 +33,23 @@
 }
 
 .about {
-    padding-top: 0px;
+    padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.about-list {
+.about-us__list {
     display: flex;
     flex-wrap: nowrap;
-   margin: -15px;
+    margin: -15px;
 }
 
-.about-item {
+.about-us__item {
     width: calc(100% / 4 - 30px);
     margin: 15px;
 }
 
 
-.about-title {
+.about-us__title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;

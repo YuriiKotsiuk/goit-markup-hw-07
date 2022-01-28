@@ -11,7 +11,7 @@
     text-align:center}
 
 
-.hero-title {
+.hero__title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -22,7 +22,7 @@
     margin-bottom: 30px;
 }
 
-.hero-btn {
+.hero__btn {
     Width: 200px;
     height: 50px;
     font-family: inherit;
@@ -40,11 +40,11 @@ border: none;
 }
 
 
-.hero-btn:hover,
-.hero-btn:focus {
+.hero__btn:hover,
+.hero__btn:focus {
 color:  #FFFFFF;
 }
-.hero-btn {
+.hero__btn {
     background-color: #2196F3;
     margin: auto;
 }
