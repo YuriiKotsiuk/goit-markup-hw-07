@@ -27,12 +27,11 @@
     border-radius: 50px;
     color: #AFB1B8;
     transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.worker-social-link:hover,
-.worker-social-link:focus {
+    &:focus,
+    &:hover {
     background-color: #2196F3;
     color: #ffffff;
+    }
 }
 
 
