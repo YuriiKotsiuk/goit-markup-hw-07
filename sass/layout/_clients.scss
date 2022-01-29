@@ -22,14 +22,14 @@ color: #212121;
     justify-content: center;
 }
 
-.clients-item {
+.clients-list__item {
     display: inline-block;
     content: "";
     cursor: pointer;
     
 }
 
-.clients-link {
+.clients-list__link {
     content: "";
     display: inline-block;
     width: 170px;
@@ -45,14 +45,14 @@ color: #212121;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);  
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients-list__link:hover,
+.clients-list__link:focus {
     color: #2196F3;
     fill: #2196F3;
     border: 1px solid #2196F3;
 }
 
-.clients-item + .clients-item {
+.clients-list__item + .clients-list__item {
     margin-left: 30px;
 }
 

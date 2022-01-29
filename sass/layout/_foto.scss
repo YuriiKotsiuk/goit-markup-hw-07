@@ -21,11 +21,11 @@
     flex-wrap: wrap;
 }
 
-.project-title-img:not(:last-child) {
+.project-list__title:not(:last-child) {
     margin-right: 30px;
 }
 
-.project-title-img {
+.project-list__title {
     position: relative;
 }
 
